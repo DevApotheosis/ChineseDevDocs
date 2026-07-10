@@ -1,0 +1,27 @@
+.md-main__inner {
+  box-shadow: none !important;
+}
+
+.md-typeset .md-button {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.md-typeset pre {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 4px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.15);
+}

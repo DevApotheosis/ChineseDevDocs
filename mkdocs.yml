@@ -1,0 +1,99 @@
+site_name: 中文信息技术开发文档
+site_url: https://github.com/DevApotheosis/OfficialWebsite
+site_description: 项目文档站点
+site_author: L-YLing,烟澪
+
+repo_name: 用户名/仓库名
+repo_url: https://github.com/用户名/仓库名
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 你的名字
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换至亮色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 快速开始:
+    - 概述: getting-started/index.md
+    - 安装: getting-started/installation.md
+    - 第一个示例: getting-started/first-example.md
+  - 用户指南:
+    - 核心功能: user-guide/features.md
+    - 配置说明: user-guide/configuration.md
+    - 常见问题: user-guide/faq.md
+    - 最佳实践: user-guide/best-practices.md
+  - API 参考:
+    - 概述: api/index.md
+    - 核心模块: api/core.md
+    - 工具函数: api/utils.md
+  - 贡献指南: contributing.md
+  - 更新日志: changelog.md
+
+extra_css:
+  - stylesheets/extra.css
