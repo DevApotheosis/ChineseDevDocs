@@ -1,13 +1,12 @@
 site_name: 中文信息技术开发文档
-site_url: https://github.com/DevApotheosis/OfficialWebsite
 site_description: 项目文档站点
 site_author: L-YLing,烟澪
 
 repo_name: 用户名/仓库名
-repo_url: https://github.com/用户名/仓库名
+repo_url: https://github.com/DevApotheosis/OfficialWebsite
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2026 你的名字
+copyright: Copyright &copy; 2026 DevApotheosis
 
 theme:
   name: material
@@ -59,11 +58,15 @@ plugins:
       type: timeago
 
 markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.tabbed:
@@ -79,21 +82,10 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 快速开始:
-    - 概述: getting-started/index.md
-    - 安装: getting-started/installation.md
-    - 第一个示例: getting-started/first-example.md
-  - 用户指南:
-    - 核心功能: user-guide/features.md
-    - 配置说明: user-guide/configuration.md
-    - 常见问题: user-guide/faq.md
-    - 最佳实践: user-guide/best-practices.md
-  - API 参考:
-    - 概述: api/index.md
-    - 核心模块: api/core.md
-    - 工具函数: api/utils.md
-  - 贡献指南: contributing.md
-  - 更新日志: changelog.md
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

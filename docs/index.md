@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# 简介
+**如今，中国的信息技术越来越发达，但是，与此同时，国内完善的开发文档没有多少（很多轮子需要我们自己查阅英文文档，有些前沿技术、框架、库甚至只能在Github等外国网络环境用英文搜寻），我们常常需要面对一大坨英文伤筋动骨，为了改变现状，提供一个更加齐全的文档、技术搜寻平台，我们创建了这个项目 `Chinese Developing Docments (CDD)`**
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# 计划支持内容
+- [ ] **主流编程语言中高级技术教程**
+- [ ] **主流编程语言流行库中文文档**
+- [ ] **操作系统开发教程**
+- [x] **各(高级)编程语言发展史**
 
-## Commands
+# 本文档主流编程语言定义
+**文档中所称是近5年大规模流行或能够稳定大规模用于开发的编程语言，可能会随时间而改变。目前定义在其中的有（下标中未打勾的表示已过时/冷门编程语言，但是仍然在文档中有相关内容的编程语言）：**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [x] **C/C++**
+- [x] **Rust**
+- [x] **Python3+**
+- [x] **Python2+**
+- [ ] **Asm(汇编语言的英文缩写，本文档中将全程采用此缩写)**
