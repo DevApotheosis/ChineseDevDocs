@@ -1,9 +1,9 @@
 site_name: 中文信息技术开发文档
 site_description: 项目文档站点
-site_author: L-YLing,烟澪
+site_author: L-YLing,烟澪,离烟澪
 
-repo_name: 用户名/仓库名
-repo_url: https://github.com/DevApotheosis/OfficialWebsite
+repo_name: DevApotheosis/ChineseDevDocs
+repo_url: https://github.com/DevApotheosis/ChineseDevDocs
 edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2026 DevApotheosis
