@@ -4,7 +4,7 @@ site_author: L-YLing,烟澪,离烟澪
 
 repo_name: ChineseDevDocs
 repo_url: https://github.com/DevApotheosis/ChineseDevDocs
-edit_uri: edit/main/docs/
+edit_uri: /DevApotheosis/ChineseDevDocs/tree/master/docs/
 
 copyright: Copyright &copy; 2026 DevApotheosis
 
@@ -58,6 +58,7 @@ plugins:
       type: timeago
 
 markdown_extensions:
+  - footnotes
   - pymdownx.tasklist:
       custom_checkbox: true
   - admonition
@@ -81,7 +82,14 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - 首页: index.md
+  - 主页面: 
+    - 开始: index.md
+    - 第三方库:
+      - 语言生态: libs/main.md
+  - 贡献指南: contribution.md
+  - 导览: guide.md
+  - 主史料:
+    - 历史页简介: history_langs/history_main.md
 
 extra_css:
   - stylesheets/extra.css
