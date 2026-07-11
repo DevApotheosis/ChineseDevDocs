@@ -86,6 +86,9 @@ nav:
     - 开始: index.md
     - 第三方库:
       - 语言生态: libs/main.md
+    - 系统开发:
+      - 概览: os_dev/main.md
+      - 引导程序: os_dev/boot/bootloader.md
   - 贡献指南: contribution.md
   - 导览: guide.md
   - 主史料:
