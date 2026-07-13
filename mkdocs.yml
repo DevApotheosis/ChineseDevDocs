@@ -51,6 +51,7 @@ theme:
     view: material/eye
 
 plugins:
+  - meta
   - search
   - tags
   - git-revision-date-localized:
