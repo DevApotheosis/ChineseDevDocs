@@ -1,4 +1,4 @@
-{% if page.meta.comments %}
+{% if page.meta.comments | default(extra.default_comments) %}
 <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
 
 <!--  giscus.app  -->

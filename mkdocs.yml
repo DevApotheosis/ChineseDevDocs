@@ -100,6 +100,9 @@ nav:
   - 主史料:
     - 历史页简介: history_langs/history_main.md
 
+extra:
+  default_comments: true
+
 extra_css:
   - stylesheets/extra.css
 
