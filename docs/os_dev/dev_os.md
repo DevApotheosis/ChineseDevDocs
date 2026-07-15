@@ -54,14 +54,14 @@ echo %PROCESSOR_ARCHITECTURE%
 
 | **架构** | **下载地址** |
 | --- | --- |
-| **`AMD64`(`x86_64-elf`)** | [点击前往](#) |
-| **`x86`(`i686-elf`/`i386-elf`)** | [点击前往](#) |
-| **`ARM64`(`aarch64-none`)** | [点击前往](#) |
+| **`AMD64`(`x86_64-elf`)** | [点击前往](https://github.com/lordmilko/i686-elf-tools/releases) |
+| **`x86`(`i686-elf`/`i386-elf`)** | [点击前往](https://github.com/lordmilko/i686-elf-tools/releases) |
+| **`ARM64`(`aarch64-none`)** | [点击前往](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) |
 
 **下载适合你自己PC CPU架构的工具包，然后将`其解压路径+\bin`添加到`Windows`的环境变量`PATH`当中**
 
-#### 64位操作系统开发配置
-
-
 ## Linux配置开发环境
 **暂待填充**
+
+## 下一步
+**接下来，我们先基于`Limine`制作一个操作系统DEMO，这样更有助于学习，一上来就学习写引导程序对初学者或许会造成一些困扰.[点击跳转`引导程序`](boot/cfg_limine.md)**

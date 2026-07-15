@@ -92,6 +92,7 @@ nav:
       - 概览: os_dev/main.md
       - 引导程序: os_dev/boot/bootloader.md
       - 环境配置: os_dev/dev_os.md
+      - 配置Limine引导程序: os_dev/boot/cfg_limine.md
   - 基础教程:
     - 概述: basic/main.md
     - 通用基础: basic/Universal/main.md
